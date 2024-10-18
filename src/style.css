@@ -1,0 +1,26 @@
+body {
+    margin: 0;
+    overflow: hidden;
+    background-color: #fcf6df;
+}
+
+.bottle-model {
+    display: flex;
+    align-items: center;
+    padding-inline: 30px;
+}
+
+/* Base input styles */
+.bottle-model__input {
+    font-size: 1rem;
+    padding: 10px 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background: transparent;
+    outline: none;
+}
+
+.bottle-model__error {
+    margin-bottom: 0;
+    margin-top: 10px;
+}
